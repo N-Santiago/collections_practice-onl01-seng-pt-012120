@@ -37,8 +37,5 @@ array.find_all do |word|
 end 
 
 def sum_array(array)
-array.inject do |running_total, number|
-  running_total + number
-  end
-end
- 
+array.inject(0){|sum,x| sum + x }
+end 
