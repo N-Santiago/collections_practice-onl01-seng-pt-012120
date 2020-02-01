@@ -40,4 +40,4 @@ sum_array(array)
 [].inject do |running_total, number|
   running_total + number
 end
-end 
+ 
